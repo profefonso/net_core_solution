@@ -2,12 +2,12 @@
 net_core_solution
 
 
-#Run for Environment
+# Run for Environment
 dotnet run --launch-profile Production
 dotnet run --launch-profile QA
 dotnet run --launch-profile Development
 
-#Run Test
+# Run Test
 dotnet test
 
 cd app-test-core
