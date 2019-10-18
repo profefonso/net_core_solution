@@ -1,0 +1,8 @@
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/bin/Debug/netstandard2.0/app-core.deps.json
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/bin/Debug/netstandard2.0/app-core.dll
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/bin/Debug/netstandard2.0/app-core.pdb
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/obj/Debug/netstandard2.0/app-core.csprojAssemblyReference.cache
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/obj/Debug/netstandard2.0/app-core.AssemblyInfoInputs.cache
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/obj/Debug/netstandard2.0/app-core.AssemblyInfo.cs
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/obj/Debug/netstandard2.0/app-core.dll
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/obj/Debug/netstandard2.0/app-core.pdb
