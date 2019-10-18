@@ -580,6 +580,20 @@
         "runtime": {
           "bin/placeholder/app-core.dll": {}
         }
+      },
+      "app-data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.0",
+          "app-core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/app-data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/app-data.dll": {}
+        }
       }
     }
   },
@@ -1512,6 +1526,11 @@
       "type": "project",
       "path": "../app-core/app-core.csproj",
       "msbuildProject": "../app-core/app-core.csproj"
+    },
+    "app-data/1.0.0": {
+      "type": "project",
+      "path": "../app-data/app-data.csproj",
+      "msbuildProject": "../app-data/app-data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1521,7 +1540,8 @@
       "Microsoft.AspNetCore.Identity.UI >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.0.0",
-      "app-core >= 1.0.0"
+      "app-core >= 1.0.0",
+      "app-data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1554,6 +1574,9 @@
           "projectReferences": {
             "/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/app-core.csproj": {
               "projectPath": "/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/app-core.csproj"
+            },
+            "/Users/alfonsocaro/Developer/projects/net_core_solution/app-data/app-data.csproj": {
+              "projectPath": "/Users/alfonsocaro/Developer/projects/net_core_solution/app-data/app-data.csproj"
             }
           }
         }

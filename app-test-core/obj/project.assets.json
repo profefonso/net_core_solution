@@ -1962,6 +1962,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "app-core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/app-core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/app-core.dll": {}
+        }
       }
     }
   },
@@ -6502,11 +6512,17 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "app-core/1.0.0": {
+      "type": "project",
+      "path": "../app-core/app-core.csproj",
+      "msbuildProject": "../app-core/app-core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Microsoft.NET.Test.Sdk >= 16.2.0",
+      "app-core >= 1.0.0",
       "coverlet.collector >= 1.0.1",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -6539,7 +6555,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/app-core.csproj": {
+              "projectPath": "/Users/alfonsocaro/Developer/projects/net_core_solution/app-core/app-core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

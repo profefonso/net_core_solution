@@ -72,3 +72,5 @@
 /Users/alfonsocaro/Developer/projects/net_core_solution/app-web/obj/Debug/netcoreapp3.0/app-web.csproj.CopyComplete
 /Users/alfonsocaro/Developer/projects/net_core_solution/app-web/obj/Debug/netcoreapp3.0/app-web.dll
 /Users/alfonsocaro/Developer/projects/net_core_solution/app-web/obj/Debug/netcoreapp3.0/app-web.pdb
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-web/bin/Debug/netcoreapp3.0/app-data.dll
+/Users/alfonsocaro/Developer/projects/net_core_solution/app-web/bin/Debug/netcoreapp3.0/app-data.pdb
